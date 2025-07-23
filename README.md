@@ -4,7 +4,8 @@
 **Technologies:** Python, Pandas, Scikit-learn, LightGBM, Feature Engineering  
 
 ## Overview  
-Predicting house sale prices using advanced regression techniques for the [Kaggle House Prices Competition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques). Key achievements:  
+Predicting house sale prices using advanced regression techniques for the [Kaggle House Prices Competition](https://www.kaggle.com/competitions/home-data-for-ml-course).
+Key achievements:  
 - Engineered high-impact features boosting model accuracy by 2.5%  
 - Achieved **10% relative error** (vs. mean price $138k)  
 - Optimized LightGBM model with hyperparameter tuning  
