@@ -1,7 +1,7 @@
 # House Prices - Kaggle Competition  
 
-** Kaggle Score:** 16,108.56 (Top 10% Leaderboard)  
-** Technologies:** Python, Pandas, Scikit-learn, LightGBM, Feature Engineering  
+**Kaggle Score:** 16,108.56 (Top 10% Leaderboard)  
+**Technologies:** Python, Pandas, Scikit-learn, LightGBM, Feature Engineering  
 
 ## Overview  
 Predicting house sale prices using advanced regression techniques for the [Kaggle House Prices Competition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques). Key achievements:  
