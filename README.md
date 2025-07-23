@@ -4,10 +4,10 @@
 **Technologies:** Python, Pandas, Scikit-learn, LightGBM, Feature Engineering  
 
 ## Overview  
-Predicting house sale prices using advanced regression techniques for the [Kaggle House Prices Competition](https://www.kaggle.com/competitions/home-data-for-ml-course).
+Predicting house sale prices using machine learning for the [Kaggle House Prices Competition](https://www.kaggle.com/competitions/home-data-for-ml-course).
 Key achievements:  
 - Engineered high-impact features boosting model accuracy by 2.5%  
-- Achieved **10% relative error** (vs. mean price $138k)  
+- Achieved **11.7% relative error** (vs. mean price $138k)  
 - Optimized LightGBM model with hyperparameter tuning  
 
 ```bash
@@ -19,8 +19,7 @@ Root Mean Squared Error (Test):   16,108
 ### Data-Driven Discoveries  
 1. **Dominant Pricing Factors**  
    - `OverallQual` (0.82 correlation) - Construction quality  
-   - `GrLivArea` (0.74) - Total living area  
-   - Engineered `TotalSF` (#3 predictor at 0.78)   
+   - `GrLivArea` (0.74) - Total living area     
 
 2. **Distribution Insights**  
    - Sale prices showed **positive skew** (concentrated at lower end)  
@@ -28,11 +27,11 @@ Root Mean Squared Error (Test):   16,108
 
 
 ## Model Comparison  
-| Model                  | Validation MAE | Key Advantage                     |  
-|------------------------|----------------|-----------------------------------|  
-| **LightGBM**           | **15,120**     | Fast training, handles missing data |  
-| XGBoost                | 15.469         | Robust to outliers                |  
-| HistGradientBoost      |   15.572       | Interpretability                  |  
+| Model                  | Validation MAE |  
+|------------------------|----------------|  
+| **LightGBM**           | **15,120**     |   
+| XGBoost                | 15,469         |   
+| HistGradientBoost      |   15,572       |   
 
 ## Conclusions  
 1. **Core Drivers** explain 82% of price variance  
